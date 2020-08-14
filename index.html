@@ -4,17 +4,52 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Which Language Are You?</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM+Mono&family=Roboto">
   <link rel="stylesheet" href="css/styles.css" type="text/css">
   <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
     crossorigin="anonymous"></script>
   <script src="scripts.js"></script>
 </head>
 
-<body>
+<body class="inverted">
+  <div class="jumbotron text-center dm-mono light-grey" ?>
+    <h3 class="display-4"> Which programming language are you?</h3>
+    <br>
+    <p class="display-4">👨‍💻👩‍💻</p>
+  </div>
+  <div class="container">
+    <div class="h-100 row align-items-center">
+      <div class="col-sm">
+        <form class="Roboto text-left col-sm align-items-center">
+          <div class="question">
+            <h5>Do you prefer coffee or tea?</h5>
+            <br>
+            <select class="form-control col-md text-left" id="beverage">
+              <option value="coffee">Coffee</option>
+              <option value="tea">Tea</option>
+            </select>
+          </div>
+          <br>
+          <div class="question">
+            <h5>Are you a morning person or an evening person?</h5>
+            <br>
+            <select class="form-control col-md text-center" id="timeofday">
+              <option value="mornings">Mornings</option>
+              <option value="evenings">Evenings</option>
+            </select>
+            <br>
+            <button type="submit" class="form-control col-md btn-primary Roboto">Let's calculate the answer.</button>
+          </div>
 
+        </form>
+      </div>
+    </div>
+
+
+  </div>
 </body>
 
 </html>

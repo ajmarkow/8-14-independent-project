@@ -28,3 +28,8 @@
   -webkit-transition: .4s;
   transition: .4s;
 }
+
+.strongweight{
+  font-weight:800;
+  font-size:100px;
+}

@@ -3,7 +3,9 @@ $(document).ready(function () {
     const beverage = $("#beverage").val();
     const timeofday = $("#timeofday").val;
     const typeofapplications = $("#typeofapplications").val();
-    $('#theanswer').replaceWith("Test");
+    const macorpc = $("#operatingsystem").val();
+    const favoritecolor = $("#favoritecolor").val();
+    $('#theanswer').replaceWith(macorpc);
     event.preventDefault();
   });
 

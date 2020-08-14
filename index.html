@@ -56,9 +56,34 @@
               <option value="pc">A PC</option>
             </select>
             <br>
-
+            <h5>What type of apps do you want to make?</h5>
+            <br>
+            <div class="radio">
+              <label>
+                <input type="radio" name="typeofapplications" value="desktop">
+                Desktop
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="typeofapplications" value="mobile">
+                Mobile
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="typeofapplications" value="either">
+                I'm not sure
+              </label>
+            </div>
+            <br>
           </div>
-          <button type="submit" id="quiz" class="form-control col-md btn-primary Roboto">Let's find out!</button>
+          <labelfor="favoritecolor">What's your favorite color?</labelfor>
+            <input type="color" id="favoritecolor" name="favoritecolor">
+            <br>
+            <br>
+            <hr>
+            <button type="submit" id="quiz" class="form-control col-md btn-primary Roboto">Let's find out!</button>
         </form>
       </div>
       <br>
@@ -69,12 +94,11 @@
     <br>
     <br>
     <br>
-    <div class="row text-center">
+    <div class="row text-center Roboto strongweight">
       <div class="col-sm">
         <div id="theanswer">
         </div>
       </div>
-    </div>
 
 </body>
 

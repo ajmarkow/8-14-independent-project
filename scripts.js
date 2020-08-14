@@ -5,7 +5,8 @@ $(document).ready(function () {
     const typeofapplications = $("#typeofapplications").val();
     const macorpc = $("#operatingsystem").val();
     const favoritecolor = $("#favoritecolor").val();
-    $('#theanswer').replaceWith(macorpc);
+    if ($(macorpc === 'mac'))
+      $('#theanswer').text("Swift!");
     event.preventDefault();
   });
 

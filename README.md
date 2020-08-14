@@ -1,7 +1,6 @@
 # 8-14-independentproject README.md
 
 ## *“Which programming language is for you?“ Quiz*
-
 * * *
 *A webpage which asks a series of questions to determine the language best matched with the user, 
 August 14, 2020*

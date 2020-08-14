@@ -1,12 +1,13 @@
 $(document).ready(function () {
   $("form").submit(function () {
-    const beverage = $("#beverage").val();
-    const timeofday = $("#timeofday").val;
-    const typeofapplications = $("#typeofapplications").val();
-    const macorpc = $("#operatingsystem").val();
-    const favoritecolor = $("#favoritecolor").val();
-    if ($(macorpc === 'mac'))
+    let beverage = $("#beverage").val();
+    let timeofday = $("#timeofday").val();
+    let typeofapplications = $("#typeofapplications").val();
+    let macorpc = $("#operatingsystem").val();
+    let favoritecolor = $("#favoritecolor").val();
+    if ($(macorpc === 'mac')) {
       $('#theanswer').text("Swift!");
+    } else { }
     event.preventDefault();
   });
 

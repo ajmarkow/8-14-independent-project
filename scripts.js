@@ -1,24 +1,28 @@
 $(document).ready(function () {
   $("form").submit(function () {
-    let beverage = $("#beverage").val();
-    let timeofday = $("#timeofday").val();
-    let typeofapplications = $("#typeofapplications").val();
-    let macorpc = $("#operatingsystem").val();
-    let favoritecolor = $("#favoritecolor").val();
-    if ($(macorpc === 'mac')) {
-      $('#theanswer').text("Swift!");
-    } else { }
-    event.preventDefault();
+    const beverage = string($("#beverage").val());
+    const timeofday = $("#timeofday").val());
+  const typeofapplications = $("#typeofapplications").val());
+const macorpc = $("#operatingsystem").val();
+const favoritecolor = $("#favoritecolor").val();
+alert(favoritecolor + macorpc)
+if ($(macorpc === "mac")) {
+  $('#theanswer').text("Swift!");
+}
+else {
+  $('#theanswer').text("Python!");
+}
+event.preventDefault();
   });
 
-  $('#darktoggle').change(function () {
-    if ($('#darktoggle').is(':checked')) {
-      $('body').addClass("inverted");
-    }
-    else if ($('#darktoggle').is !== (':checked')) {
-      $('body').removeClass("inverted");
-    }
-  });
+$('#darktoggle').change(function () {
+  if ($('#darktoggle').is(':checked')) {
+    $('body').addClass("inverted");
+  }
+  else if ($('#darktoggle').is !== (':checked')) {
+    $('body').removeClass("inverted");
+  }
+});
 });
 
 
